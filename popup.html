@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Addon Asetukset</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Chat Addon Asetukset</h2>
+  <label>
+    Käyttäjänimi:
+    <input type="text" id="username">
+  </label>
+  <br><br>
+  <label>
+    Chat-ikkunan sijainti:
+    <select id="position">
+      <option value="bottomRight">Oikea alakulma</option>
+      <option value="bottomLeft">Vasen alakulma</option>
+      <option value="topRight">Oikea yläkulma</option>
+      <option value="topLeft">Vasen yläkulma</option>
+    </select>
+  </label>
+  <br><br>
+  <button id="save">Tallenna</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
